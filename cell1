@@ -1,0 +1,10 @@
+# ✉️ Spam Email Detection Using Naive Bayes (Scikit-learn)
+
+## 🎯 Objective:
+Create a machine learning model using **scikit-learn** to classify messages as **Spam** or **Ham (Not Spam)**.
+
+We will use the **SMS Spam Collection Dataset** and implement:
+- Text preprocessing
+- Vectorization (Bag-of-Words)
+- Naive Bayes Classifier
+- Model evaluation (accuracy, precision, recall)

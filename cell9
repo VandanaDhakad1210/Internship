@@ -1,0 +1,11 @@
+# ✅ Conclusion
+
+- The Naive Bayes model achieved high accuracy in classifying spam messages.
+- Precision and recall are strong, making it a good baseline model.
+
+### 🔁 Improvements You Can Try:
+- Use TF-IDF vectorization instead of CountVectorizer.
+- Try other algorithms like Logistic Regression, SVM, or Random Forest.
+- Tune model using `GridSearchCV`.
+
+📌 **This notebook fulfills the project task** of building, training, and evaluating a predictive model using scikit-learn.

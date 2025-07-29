@@ -1,0 +1,10 @@
+# Convert 'ham' and 'spam' to binary labels
+data['label_num'] = data['label'].map({'ham': 0, 'spam': 1})
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(
+    data['message'], data['label_num'], test_size=0.2, random_state=42
+)
+
+print(f"Training samples: {X_train.shape[0]}")
+print(f"Test samples: {X_test.shape[0]}")

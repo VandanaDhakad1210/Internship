@@ -1,0 +1,6 @@
+# Convert text to numeric using Bag-of-Words
+vectorizer = CountVectorizer()
+X_train_vec = vectorizer.fit_transform(X_train)
+X_test_vec = vectorizer.transform(X_test)
+
+print("Vectorization complete. Vocabulary size:", len(vectorizer.vocabulary_))

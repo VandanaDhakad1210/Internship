@@ -1,0 +1,4 @@
+model = MultinomialNB()
+model.fit(X_train_vec, y_train)
+
+print("Model training complete.")
