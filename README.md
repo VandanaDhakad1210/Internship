@@ -1,1 +1,1 @@
-# CODTECH-Internship-
+# Internship
